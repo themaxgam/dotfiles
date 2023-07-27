@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+alias sudo="doas"
+
+alias ls="ls -Alh --color=tty"
+
+# Vim
+alias vim="nvim"
+alias v="nvim"
+
+# JS
+alias fresh="rm -rf **/node_modules && npm i"
+
+# Git
+alias g="git"
+alias gs="git status"
+alias gl="git log --oneline --decorate --color"
+alias unstage="git restore --staged ."
+alias commit="git add . && git commit -m"
+alias commitall="git add -A && git commit -m"
+alias nuke="git clean -df && git reset --hard"
+alias reset="git reset HEAD~"
+alias stash="git stash -u"
+alias pop="git stash pop"
+alias pull="git pull"
+alias push="git push"
