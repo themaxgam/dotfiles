@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-alias sudo="doas"
+if ! command -v sudo &> /dev/null && command -v doas &> /dev/null; then
+	alias sudo="doas"
+fi
 
 alias ls="ls -Alh --color=tty"
 
