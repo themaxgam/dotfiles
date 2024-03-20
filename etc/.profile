@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo ".env"
-
 export EDITOR="nvim"
 
 if [[ -d $HOME/.local/bin ]]; then
