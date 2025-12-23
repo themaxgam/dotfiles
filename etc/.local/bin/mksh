@@ -1,0 +1,11 @@
+#!/usr/bin/env /bin/bash
+
+if [ $# -lt 1 ]; then
+	echo "Not enough arguments!";
+	exit -1
+fi
+
+echo "#!/usr/bin/env /bin/bash" > "$1"
+chmod +x "$1"
+$EDITOR "$1"
+
