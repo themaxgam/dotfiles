@@ -29,3 +29,6 @@ alias push="git push"
 
 # Create temporary folder and cd into it
 alias tmp="cd '$(mktemp -d)'"
+
+# Print date in YYYY-MM-DD format
+alias hoy="date +%Y-%m-%d"
