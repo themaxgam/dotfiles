@@ -26,3 +26,6 @@ alias stash="git stash -u"
 alias pop="git stash pop"
 alias pull="git pull"
 alias push="git push"
+
+# Create temporary folder and cd into it
+alias tmp="cd '$(mktemp -d)'"
