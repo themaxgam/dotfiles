@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Value=1.0
+Type=Application
+Name=Firefox Private
+GenericName=Firefox Private
+Comment=Run Firefox Web Browser in private mode
+Icon=firefox
+Exec="/usr/lib/firefox/firefox" "--private-window"
+Categories=GNOME;GTK;Network;WebBrowser;
+
