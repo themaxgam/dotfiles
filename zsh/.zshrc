@@ -24,4 +24,3 @@ source $ZSH/oh-my-zsh.sh
 DEFAULT_USER="themaxgam"
 
 source $HOME/.profile
-source $HOME/.config/aliases
