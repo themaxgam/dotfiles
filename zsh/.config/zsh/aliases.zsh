@@ -15,3 +15,5 @@ alias mktempf="$EDITOR $(\mktemp)"
 
 # Print date in YYYY-MM-DD format
 alias hoy="date +%Y-%m-%d"
+
+alias tmuxa="tmux attach || tmux new-session"
